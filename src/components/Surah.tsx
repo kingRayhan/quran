@@ -21,7 +21,7 @@ const Surah: React.FC<PropsType> = ({
   return (
     <div className="flex gap-6 p-4 border group bg-slate-50 border-slate-300">
       <div className="flex flex-col items-center gap-2">
-        <div className="grid w-10 h-10 text-2xl text-white transition-all duration-300 transform rotate-45 rounded-md place-content-center group-hover:bg-primary bg-slate-700">
+        <div className="grid w-10 h-10 mt-[10px] text-xl group-hover:text-white transition-all duration-300 transform rotate-45 rounded-md place-content-center group-hover:bg-primary bg-slate-300 text-slate-800">
           <span className="transform -rotate-45">{serial}</span>
         </div>
         <Tooltip title="Number of verses" color="cyan" placement="bottom">
