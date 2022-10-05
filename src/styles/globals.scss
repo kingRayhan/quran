@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+$color-primary: #f00;
+
+.hero-section {
+  background-image: url("/images/background.jpg");
+}
