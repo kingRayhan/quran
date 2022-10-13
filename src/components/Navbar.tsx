@@ -1,9 +1,14 @@
+import Link from "next/link";
 import React from "react";
 
 const Navbar: React.FC = () => {
   return (
     <div className="fixed top-0 left-0 flex justify-between w-full px-8 py-2 ">
-      <h1 className="m-0 text-xl font-semibold">Quran</h1>
+      <h1 className="m-0 text-xl font-semibold">
+        <Link href={"/"}>
+          <a className="text-white hover:text-white">Quran</a>
+        </Link>
+      </h1>
       <nav className="flex items-center gap-4">
         <button>
           <svg
